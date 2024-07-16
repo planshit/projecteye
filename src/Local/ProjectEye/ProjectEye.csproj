@@ -192,10 +192,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Resource>
-    <Resource Include="Resources\Language\zh.xaml">
+    <Page Include="Resources\Language\zh-cn.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Resource>
+    </Page>
+    <Page Include="Resources\Language\zh-tw.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Resources\Themes\Blue\ContentCard.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
